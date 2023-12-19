@@ -11,7 +11,7 @@ To make new blocks just copy one and change it.
 
 That's a block:
 ```latex
-%------------ ABlock Content ---------------
+%------------ Block Content ---------------
 \begin{tikzpicture}
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
