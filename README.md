@@ -5,6 +5,7 @@ Some formulas used in the probability exam.
 The files come without any warranty.
 
 ## Usage
+Change the .tex file and compile it.
 Each block is made by its content and its header, if you want to change a block just change both.
 To make new blocks just copy one and change it.
 
