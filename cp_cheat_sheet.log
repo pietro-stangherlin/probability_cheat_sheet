@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.11.15)  19 DEC 2023 18:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.11.15)  20 DEC 2023 11:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -589,38 +589,38 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 (./cp_cheat_sheet.aux)
 \openout1 = `cp_cheat_sheet.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: <default>
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: landscape 
-* h-part:(L,W,R)=(119.2467pt, 556.47656pt, 119.24672pt)
-* v-part:(T,H,B)=(73.71613pt, 430.00462pt, 110.57425pt)
-* \paperwidth=794.96999pt
-* \paperheight=614.295pt
-* \textwidth=773.28656pt
-* \textheight=646.81462pt
-* \oddsidemargin=-61.42828pt
-* \evensidemargin=-61.42828pt
-* \topmargin=-93.37007pt
+* modes: 
+* h-part:(L,W,R)=(118.07893pt, 361.34999pt, 118.07895pt)
+* v-part:(T,H,B)=(98.08224pt, 599.84122pt, 147.12338pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=578.15999pt
+* \textheight=816.65121pt
+* \oddsidemargin=-62.59605pt
+* \evensidemargin=-62.59605pt
+* \topmargin=-69.00395pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -690,79 +690,90 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (2.09277pt too wide) in paragraph at lines 56--57
+Overfull \hbox (8.59639pt too wide) in paragraph at lines 57--58
 [][] 
  []
 
 
-Overfull \hbox (2.09277pt too wide) in paragraph at lines 69--70
+Overfull \hbox (8.59639pt too wide) in paragraph at lines 71--72
 [][] 
  []
 
 
-Overfull \hbox (2.09277pt too wide) in paragraph at lines 81--82
+Overfull \hbox (8.59639pt too wide) in paragraph at lines 83--84
 [][] 
  []
 
 
-Overfull \hbox (2.09277pt too wide) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 89--92
+[]$\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 ) =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--92
+\OML/cmm/m/it/10 E\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 Y\OT1/cmr/m/n/10 ] = \OML/c
+mm/m/it/10 A[]b$\OT1/cmr/m/n/10 ; MGF$(\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (8.59639pt too wide) in paragraph at lines 96--97
 [][] 
  []
 
 
-Overfull \hbox (2.09277pt too wide) in paragraph at lines 106--118
+Overfull \hbox (8.59639pt too wide) in paragraph at lines 109--110
+[][] 
+ []
+
+
+Overfull \hbox (8.59639pt too wide) in paragraph at lines 121--133
 [][]
  []
 
 
-Overfull \hbox (2.09277pt too wide) in paragraph at lines 106--118
+Overfull \hbox (8.59639pt too wide) in paragraph at lines 121--133
 [] 
  []
 
 
-Overfull \hbox (2.09277pt too wide) in paragraph at lines 129--130
+Overfull \hbox (8.59639pt too wide) in paragraph at lines 146--147
 [][] 
  []
 
 
-Overfull \hbox (2.09277pt too wide) in paragraph at lines 140--141
+Overfull \hbox (8.59639pt too wide) in paragraph at lines 161--162
 [][] 
  []
 
 
-Overfull \hbox (2.09277pt too wide) in paragraph at lines 154--155
+Overfull \hbox (8.59639pt too wide) in paragraph at lines 174--175
 [][] 
  []
 
 
-Overfull \hbox (2.09277pt too wide) in paragraph at lines 165--166
+Overfull \hbox (8.59639pt too wide) in paragraph at lines 191--192
 [][] 
  []
 
 
-Overfull \hbox (2.09277pt too wide) in paragraph at lines 182--183
+Overfull \hbox (8.59639pt too wide) in paragraph at lines 207--208
 [][] 
  []
 
 
-Overfull \hbox (2.09277pt too wide) in paragraph at lines 198--199
-[][] 
- []
-
-
-Overfull \hbox (2.09277pt too wide) in paragraph at lines 209--210
+Overfull \hbox (8.59639pt too wide) in paragraph at lines 221--222
 [][] 
  []
 
@@ -770,10 +781,10 @@ Overfull \hbox (2.09277pt too wide) in paragraph at lines 209--210
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./cp_cheat_sheet.aux) ) 
 Here is how much of TeX's memory you used:
- 15869 strings out of 480247
- 321920 string characters out of 5896150
- 604954 words of memory out of 5000000
- 33529 multiletter control sequences out of 15000+600000
+ 15873 strings out of 480247
+ 322024 string characters out of 5896150
+ 607071 words of memory out of 5000000
+ 33533 multiletter control sequences out of 15000+600000
  471872 words of font info for 39 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  100i,8n,104p,436b,832s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -790,7 +801,7 @@ nts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on cp_cheat_sheet.pdf (1 page, 145600 bytes).
+Output written on cp_cheat_sheet.pdf (1 page, 148030 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream

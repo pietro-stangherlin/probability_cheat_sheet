@@ -1,5 +1,6 @@
 \documentclass{article}
-\usepackage[landscape]{geometry}
+%\usepackage[landscape]{geometry}
+\usepackage[a4paper, total={5in, 8.3in}]{geometry}
 \usepackage{url}
 \usepackage{multicol}
 \usepackage{amsmath}
@@ -15,7 +16,7 @@
 \usepackage{mathtools}
 \usepackage{amsmath,amssymb}
 \usepackage{enumitem}
-\makeatletter
+%\makeatletter
 
 %\newcommand*\bigcdot{\mathpalette\bigcdot@{.5}}
 %\newcommand*\bigcdot@[2]{\mathbin{\vcenter{\hbox{\scalebox{#2}{$\m@th#1\bullet$}}}}}
@@ -61,7 +62,8 @@
     \begin{minipage}{0.3\textwidth}
     $f_Y(y) = \frac{\beta^{\alpha}}{\Gamma(\alpha)}y^{\alpha - 1}e^{-\beta y}$; $y, \alpha, \beta > 0$ \\
     $ E[Y] = \alpha / \beta$; $Var(Y) = \alpha / \beta^{2}$ \\
-    MGF$(t)= \left( 1 - \frac{t}{\beta} \right)^{-\alpha}$ for $t < \beta$
+    MGF$(t)= \left( 1 - \frac{t}{\beta} \right)^{-\alpha}$ for $t < \beta$ \\
+    $\chi^2 (k) \sim \text{Gamma}(k/2, 1/2)$
     \end{minipage}
 };
 %------------ Gamma distribution Header ---------------------
@@ -93,6 +95,19 @@
 \node[fancytitle, right=10pt] at (box.north west) {Multivariate Normal distribution};
 \end{tikzpicture}
 
+
+%------------ t-Student distribution ---------------
+\begin{tikzpicture}
+\node [mybox] (box){%
+    \begin{minipage}{0.3\textwidth}
+    $f_Y(y) = \frac{\Gamma(\frac{\nu + 1}{2})}{\sqrt{\nu \pi} \Gamma (\frac{\nu}{2})} \left(1 + \frac{y^2}{\nu} \right)^{-(\nu + 1)/2}$\\
+    $\nu > 0$
+    \end{minipage}
+};
+%------------ At-Student distribution Header ---------------------
+\node[fancytitle, right=10pt] at (box.north west) {t-Student distribution};
+\end{tikzpicture}
+
 %------------ Hypergeometric distribution Content ---------------
 \begin{tikzpicture}
 \node [mybox] (box){%
@@ -120,24 +135,16 @@
 \begin{tikzpicture}
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
-        $\sum_{n=0}^{\infty} x^n/{n!} = e^x$; $\lim_{n \rightarrow \infty} \left(1 + \frac{x}{n} \right)^n = e^{x}$ \\
-        $\sum^{n}_{i = 0}r^{i} = \frac{1 - r^{n+1}}{1 - r}$ for $|r| < 1$
+    $\sum^{n}_{i = 0}r^{i} = \frac{1 - r^{n+1}}{1 - r}$ for $|r| < 1$ \\
+        $ e^x = \sum_{n=0}^{\infty} x^n/{n!} = $ $\lim_{n \rightarrow \infty} \left(1 + \frac{x}{n} \right)^n$ \\
+        $e^x = \sum^{k - 1}_{i = 0} \frac{x^i}{i!} + o(\frac{1}{x^k})$ for $x \rightarrow 0$
+
     \end{minipage}
 };
 %------------ Series Header ---------------------
 \node[fancytitle, right=10pt] at (box.north west) {Series};
 \end{tikzpicture}
 
-%------------ Log base change Content ---------------
-\begin{tikzpicture}
-\node [mybox] (box){%
-    \begin{minipage}{0.3\textwidth}
-    $\log_{a}(x) = \frac{\log_{b}(x)}{\log_{b}(x)}$
-    \end{minipage}
-};
-%------------ Log base change Header ---------------------
-\node[fancytitle, right=10pt] at (box.north west) {Log base change};
-\end{tikzpicture}
 
 
 %------------ Trigonometric summations Content ---------------
@@ -153,15 +160,17 @@
 \node[fancytitle, right=10pt] at (box.north west) {Trigonometric summations};
 \end{tikzpicture}
 
-%------------ Another topic ---------------
+
+
+%------------ Log base change Content ---------------
 \begin{tikzpicture}
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
-    Some stuff
+    $\log_{a}(x) = \frac{\log_{b}(x)}{\log_{b}(x)}$
     \end{minipage}
 };
-%------------ Another topic Header ---------------------
-\node[fancytitle, right=10pt] at (box.north west) {Another topic};
+%------------ Log base change Header ---------------------
+\node[fancytitle, right=10pt] at (box.north west) {Log base change};
 \end{tikzpicture}
 
 
@@ -196,6 +205,9 @@
 %------------ Integrals Header ---------------------
 \node[fancytitle, right=10pt] at (box.north west) {Integrals};
 \end{tikzpicture}
+
+
+
 
 %------------ Another topic ---------------
 \begin{tikzpicture}

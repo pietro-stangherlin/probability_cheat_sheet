@@ -6,20 +6,20 @@ The files come without any warranty.
 
 ## Usage
 Change the .tex file and compile it.
-Each block is made by its content and its header, if you want to change a block just change both.
-To make new blocks just copy one and change it.
+Each box is made by its content and its header, if you want to change a box replace "Some stuff" with your content and the "{Box Header}".
+To make a new box just copy one and change it.
 
-That's a block:
+That's a box:
 ```latex
-%------------ Block Content ---------------
+%------------ Box Content ---------------
 \begin{tikzpicture}
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
     Some stuff
     \end{minipage}
 };
-%------------ Block Header ---------------------
-\node[fancytitle, right=10pt] at (box.north west) {Block Header};
+%------------ Box Header ---------------------
+\node[fancytitle, right=10pt] at (box.north west) {Box Header};
 \end{tikzpicture}
 ```
 
