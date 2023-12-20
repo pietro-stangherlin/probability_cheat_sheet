@@ -136,8 +136,8 @@
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
     $\sum^{n}_{i = 0}r^{i} = \frac{1 - r^{n+1}}{1 - r}$ for $|r| < 1$ \\
-        $ e^x = \sum_{n=0}^{\infty} x^n/{n!} = $ $\lim_{n \rightarrow \infty} \left(1 + \frac{x}{n} \right)^n$ \\
-        $e^x = \sum^{k - 1}_{i = 0} \frac{x^i}{i!} + o(\frac{1}{x^k})$ for $x \rightarrow 0$
+        $ e^x = \sum_{n=0}^{\infty} x^n/{n!} = $ $\lim_{n \rightarrow \infty} \left(1 + \frac{x}{n} \right)^n$
+
 
     \end{minipage}
 };
@@ -207,6 +207,19 @@
 \end{tikzpicture}
 
 
+
+
+%------------ Taylor expansions ---------------
+\begin{tikzpicture}
+\node [mybox] (box){%
+    \begin{minipage}{0.3\textwidth}
+    $e^x = \sum^{k}_{i = 0} \frac{x^i}{i!} + o(\frac{1}{x^k})$ for $x \rightarrow 0$ \\
+    $\log(1 + x) = x - \frac{x^2}{2} + \frac{x^3}{3} + o(x^3)$ for $x \rightarrow 0$
+    \end{minipage}
+};
+%------------ Taylor expansions Header ---------------------
+\node[fancytitle, right=10pt] at (box.north west) {Taylor expansions};
+\end{tikzpicture}
 
 
 %------------ Another topic ---------------
