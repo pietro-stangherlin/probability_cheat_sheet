@@ -223,11 +223,71 @@
 \end{tikzpicture}
 
 
+%------------ Function of random variable topic ---------------
+\begin{tikzpicture}
+\node [mybox] (box){%
+    \begin{minipage}{0.3\textwidth}
+    $X,Y \in \mathbb{R}^d$; $Y = g(X)$ invertible and with $\det(J_{g^{-1}}(y)) \neq 0$ then $f_{Y}(y) = f_{X}(g^{-1}(y))|\det(J_{g^{-1}}(y))|$
+    \end{minipage}
+};
+%------------ Function of random variable Header ---------------------
+\node[fancytitle, right=10pt] at (box.north west) {Function of a random variable};
+\end{tikzpicture}
+
+
+%------------ Jacobian topic ---------------
+\begin{tikzpicture}
+\node [mybox] (box){%
+    \begin{minipage}{0.3\textwidth}
+    $a,b \in \mathbb{R}^d$; $b = f(a)$. \\
+    $\left(J_{f}(b)\right)_{ij} = \frac{df_{i}(a)}{da_{j}}$
+    \end{minipage}
+};
+%------------ Jacobian Header ---------------------
+\node[fancytitle, right=10pt] at (box.north west) {Jacobian};
+\end{tikzpicture}
+
+
+%------------ Matrix inversion topic ---------------
+\begin{tikzpicture}
+\node [mybox] (box){%
+    \begin{minipage}{0.3\textwidth}
+    $A^{-1} = (adj A) / \det(A)$; \\
+    $$
+    A = \begin{pmatrix}
+    a_{11} & a_{12} & a_{13} \\
+    a_{21} & a_{22} & a_{23} \\
+    a_{31} & a_{32} & a_{33}
+    \end{pmatrix} $$
+
+    $$ m_{11} = \begin{pmatrix}
+    a_{22} & a_{23} \\
+    a_{32} & a_{33} \\
+    \end{pmatrix} $$
+    $$c_{i1} = (-1)^{1+i} \det(m_{i1})$$
+    $$
+    \det A = \sum^{n}_{i = 1} c_{i1}
+    $$
+
+    $$ C = \begin{pmatrix}
+    c_{11} & c_{12} & c_{13} \\
+    c_{21} & c_{22} & c_{23} \\
+    c_{31} & c_{32} & c_{33}
+    \end{pmatrix} $$
+
+    $$ adj(A) = C^T $$
+
+    \end{minipage}
+};
+%------------ Matrix inversion Header ---------------------
+\node[fancytitle, right=10pt] at (box.north west) {Matrix inversion};
+\end{tikzpicture}
+
 %------------ Another topic ---------------
 \begin{tikzpicture}
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
-    Some stuff
+    some stuff
     \end{minipage}
 };
 %------------ Another topic Header ---------------------
