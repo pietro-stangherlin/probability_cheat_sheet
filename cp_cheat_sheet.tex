@@ -105,8 +105,22 @@
     $\nu > 0$
     \end{minipage}
 };
-%------------ At-Student distribution Header ---------------------
+%------------ t-Student distribution Header ---------------------
 \node[fancytitle, right=10pt] at (box.north west) {t-Student distribution};
+\end{tikzpicture}
+
+%------------ Uniform distribution topic ---------------
+\begin{tikzpicture}
+\node [mybox] (box){%
+    \begin{minipage}{0.3\textwidth}
+    $Y \sim Unif(a,b)$ \\
+    $f_Y(y) = \frac{1}{b -a}$ for $y \in [a,b]$ otherwise 0\\
+    $F_Y(y) = \frac{y - a}{b - a}$ for $y \in [a,b]$ \\
+    $E[Y] = \frac{1}{2}(a + b)$; $Var(Y) = \frac{1}{12}(b - a)^2$
+    \end{minipage}
+};
+%------------ Uniform distribution Header ---------------------
+\node[fancytitle, right=10pt] at (box.north west) {Uniform distribution};
 \end{tikzpicture}
 
 %------------ Hypergeometric distribution Content ---------------
@@ -131,6 +145,7 @@
 %------------ Negative Binomial Header ---------------------
 \node[fancytitle, right=10pt] at (box.north west) {Negative Binomial distribution};
 \end{tikzpicture}
+
 
 %------------ Series Content ---------------
 \begin{tikzpicture}
@@ -282,6 +297,8 @@
 %------------ Matrix inversion Header ---------------------
 \node[fancytitle, right=10pt] at (box.north west) {Matrix inversion};
 \end{tikzpicture}
+
+
 
 %------------ Another topic ---------------
 \begin{tikzpicture}
