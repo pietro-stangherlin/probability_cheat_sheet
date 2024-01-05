@@ -230,7 +230,9 @@
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
     $e^x = \sum^{k}_{i = 0} \frac{x^i}{i!} + o(x^k)$ for $x \rightarrow 0$ \\
-    $\log(1 + x) = \sum^{k}_{i = 1} (-1)^{i - 1} \frac{x^{i}}{i} + o(x^k)$ for $x \rightarrow 0$
+    $\log(1 + x) = \sum^{k}_{i = 1} (-1)^{i - 1} \frac{x^{i}}{i} + o(x^k)$ for $x \rightarrow 0$ \\
+    $\sin(x) = \sum^{n}_{i = 0}\frac{(-1)^i x^{2i + 1}}{(2i + 1)!} + o(x^{2n})$ \\ $\cos(x) = \sum^{n}_{i = 0}\frac{(-1)^i x^{2i}}{(2i)!} + o(x^{2n})$
+
     \end{minipage}
 };
 %------------ Taylor expansions Header ---------------------
