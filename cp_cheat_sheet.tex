@@ -64,7 +64,8 @@
     $ E[Y] = \alpha / \beta$; $Var(Y) = \alpha / \beta^{2}$ \\
     MGF$(t)= \left( 1 - \frac{t}{\beta} \right)^{-\alpha}$ for $t < \beta$ \\
     $\chi^2 (k) \sim \text{Gamma}(k/2, 1/2)$ \\
-    $Y_{i}$ indip. $\text{Gamma}(\alpha_{i}, \beta)$ $\Rightarrow$ $\sum^{n}_{i = 1}Y_{i} \sim \text{Gamma}(\sum^{n}_{i = 1}\alpha_{i}, \beta)$
+    $Y_{i}$ indip. $\text{Gamma}(\alpha_{i}, \beta)$ $\Rightarrow$ $\sum^{n}_{i = 1}Y_{i} \sim \text{Gamma}(\sum^{n}_{i = 1}\alpha_{i}, \beta)$ \\
+    $k * \text{Gamma}(\alpha, \beta) = \text{Gamma}(\alpha, \beta / k)$
     \end{minipage}
 };
 %------------ Gamma distribution Header ---------------------
@@ -152,7 +153,8 @@
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
     $\sum^{n}_{i = 0}r^{i} = \frac{1 - r^{n+1}}{1 - r}$ for $|r| < 1$ \\
-        $ e^x = \sum_{n=0}^{\infty} x^n/{n!} = $ $\lim_{n \rightarrow \infty} \left(1 + \frac{x}{n} \right)^n$
+        $ e^x = \sum_{n=0}^{\infty} x^n/{n!} = $ $\lim_{n \rightarrow \infty} \left(1 + \frac{x}{n} \right)^n$ \\
+    $\sum^{n}_{i = 0} \frac{1}{x^p}$ for $p > 1$
 
 
     \end{minipage}
@@ -182,7 +184,7 @@
 \begin{tikzpicture}
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
-    $\log_{a}(x) = \frac{\log_{b}(x)}{\log_{b}(x)}$
+    $\log_{a}(x) = \frac{\log_{b}(x)}{\log_{b}(a)}$
     \end{minipage}
 };
 %------------ Log base change Header ---------------------
@@ -301,6 +303,16 @@
 \end{tikzpicture}
 
 
+%------------ Probability Union topic ---------------
+\begin{tikzpicture}
+\node [mybox] (box){%
+    \begin{minipage}{0.3\textwidth}
+    $\mathbb{P}(\overset{n}{\cup}A_i) = \overset{n}{\sum}_{k = 1}\underset{I \subset \{1,..,n\}, |I| = k}{\sum}{(-1)^{k - 1}}\mathbb{P}(\cap A_I)$
+    \end{minipage}
+};
+%------------ Probability Union Header ---------------------
+\node[fancytitle, right=10pt] at (box.north west) {Probability Union};
+\end{tikzpicture}
 
 %------------ Another topic ---------------
 \begin{tikzpicture}
@@ -312,6 +324,7 @@
 %------------ Another topic Header ---------------------
 \node[fancytitle, right=10pt] at (box.north west) {Another topic};
 \end{tikzpicture}
+
 
 
 \end{multicols*}
