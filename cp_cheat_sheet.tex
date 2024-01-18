@@ -139,6 +139,7 @@
 \begin{tikzpicture}
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
+    $Y =$ "n. of failures till r-th success" \\
     $f_Y(k) = \binom{k + r - 1}{k} (1 - p)^{k} p^{r}$ \\
     $E[Y] = \frac{r(1 - p)}{p}$; $Var(Y) = \frac{r(1 - p)}{p^2}$
     \end{minipage}
@@ -242,15 +243,15 @@
 \end{tikzpicture}
 
 
-%------------ Function of random variable topic ---------------
+%------------ Function of random vector topic ---------------
 \begin{tikzpicture}
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
     $X,Y \in \mathbb{R}^d$; $Y = g(X)$ invertible and with $\det(J_{g^{-1}}(y)) \neq 0$ then $f_{Y}(y) = f_{X}(g^{-1}(y))|\det(J_{g^{-1}}(y))|$
     \end{minipage}
 };
-%------------ Function of random variable Header ---------------------
-\node[fancytitle, right=10pt] at (box.north west) {Function of a random variable};
+%------------ Function of random vector Header ---------------------
+\node[fancytitle, right=10pt] at (box.north west) {Function of a random vector};
 \end{tikzpicture}
 
 
@@ -307,7 +308,7 @@
 \begin{tikzpicture}
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
-    $\mathbb{P}(\overset{n}{\cup}A_i) = \overset{n}{\sum}_{k = 1}\underset{I \subset \{1,..,n\}, |I| = k}{\sum}{(-1)^{k - 1}}\mathbb{P}(\cap A_I)$
+    $\mathbb{P}(\overset{n}{\cup}A_i) = \\ \overset{n}{\sum}_{k = 1}\underset{I \subset \{1,..,n\}, |I| = k}{\sum}{(-1)^{k - 1}}\mathbb{P}(\cap A_I)$
     \end{minipage}
 };
 %------------ Probability Union Header ---------------------
